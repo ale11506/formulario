@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <style>
+        #carouselExampleAutoplaying{
+            margin: 80px;
+            border: 3px solid ;
+            background-color:cadetblue;
+        }
+         body{
+            background-image: url(./fondo.jpg);
+            
+        }
+        
+        .col-4{
+            margin: 3px;
+            border-radius: 12px;
+            
+        }
+        
+        .col-5{
+            margin: 3px;
+            border-radius: 12px;
+           
+        }
+        
+        .col-7{
+            margin: 3px;
+            border-radius: 12px;
+            
+        }
+        
+        .col-6{
+            margin: 3px;
+            border-radius: 12px;
+            
+        }
+        
+        .col-2{
+            margin: 3px;
+            border-radius: 12px;   
+        }  
+
+        .col{
+            margin: 3px;
+            border-radius: 12px; 
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="container">
+            <form>
+
+            <div class="titulo"><h2>INFORMACION PERSONAL</h2></div>
+      
+            <div class="row">
+                <div class="col-2"> Catalogo</div> <div class="col"> Grado</div> <div class="col"> Arma o servicio </div>
+            </div>
+            <div class="row">
+                <input class="col-2" type="number" class="form-control" id="catalogo" aria-describedby="number">
+                <select class="col-4" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">Subteniente</option>
+                    <option value="2">Teniente</option>
+                    <option value="3">Capitan 1ro.</option>
+                    <option value="4">Capitan 2do.</option>
+                    <option value="5">Capitan 1ro.</option>
+                    <option value="6">Mayor</option>
+                    <option value="7">Teniente Coronel</option>
+                    <option value="8">Coronel</option>
+                    <option value="9">General de Brigada</option>
+                    <option value="10">General de Divicion</option>
+                    
+
+                  </select>
+
+                  <select class="col-4" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">Infantería</option>
+                    <option value="2">Caballería</option>
+                    <option value="3">Artillería.</option>
+                    <option value="4">Aviación</option>
+                    <option value="5">Naval</option>
+                    <option value="6">Transmisiones</option>
+                    <option value="7">Material de Guerra</option>
+                    <option value="8">Intendencia</option>
+                    <option value="9">Policía Militar</option>
+                    <option value="10">Sanidad</option>
+                  </select>
+            </div>
+
+            <div class="row">
+            <div class="col">Apellido</div> <div class="col"> Nombre</div>
+            </div>
+            <div class="row">
+                <input class="col-5" type="text" class="form-control" id="Nombres" aria-describedby="nombre">
+                <input class="col-5" type="text" class="form-control" id="Apellidos" aria-describedby="apellido">
+            </div>
+
+            <div class="row">
+                <div class="col">fecha de nacimiento</div> <div class="col"> Lugar de Nacimiento</div>
+                </div>
+                <div class="row">
+                    <input class="col-4" type="date" class="form-control" id="fecha" aria-describedby="fecha">
+                    <input class="col-6" type="text" class="form-control" id="lugar nacimiento" aria-describedby="lugar">
+                </div>
+
+                <div class="row">
+                    <div class="col">Religion</div> <div class="col"> Direccion Actual</div>
+                </div>
+                <div class="row">
+                      <input class="col-4" type="text" class="form-control" id="religion" aria-describedby="religion">
+                      <input class="col-6" type="text" class="form-control" id="Direccion" aria-describedby="direccion">
+                </div>
+
+                <div class="row">
+                    <div class="col">telefono de casa</div> <div class="col"> Correo Electronico</div>
+                </div>
+                <div class="row">
+                      <input class="col-4" type="number" class="form-control" id="telefono" aria-describedby="numero">
+                      <input class="col-6" type="email" class="form-control" id="correo" aria-describedby="correo">
+                </div>
+
+                <div class="row">
+                    <div class="col">telefono Celular</div> <div class="col"> Correo Militar</div>
+                </div>
+                <div class="row">
+                      <input class="col-4" type="number" class="form-control" id="telefono" aria-describedby="number">
+                      <input class="col-6" type="email" class="form-control" id="correo" aria-describedby="number">
+                </div>
+
+                <div class="row">
+                    <div class="col">NIT</div> <div class="col"> Profesión u Oficio</div>
+                </div>
+                <div class="row">
+                      <input class="col-4" type="number" class="form-control" id="Nit" aria-describedby="number">
+                      <input class="col-6" type="text" class="form-control" id="profofi" aria-describedby="number">
+                </div>
+
+                <div class="row">
+                    <div class="col">Tipo de Sangre</div> <div class="col"> Puesto que Desenpeña</div>
+                </div>
+                <div class="row">
+                    <select class="col-4" aria-label="Default select example">
+                        <option selected></option>
+                        <option value="1">A+</option>
+                        <option value="2">A-</option>
+                        <option value="3">B+</option>
+                        <option value="4">B-</option>
+                        <option value="5">AB+</option>
+                        <option value="6">AB-</option>
+                        <option value="7">O+-</option>
+                        <option value="8">O-</option>
+                      </select>
+                      <input class="col-6" type="text" class="form-control" id="puesto" aria-describedby="number">
+                </div>
+                
+                <div class="row">
+                    <div class="col">Fecha de Alta en Este Comando</div> <div class="col"> Orden General No.</div>
+                </div>
+                <div class="row">
+                      <input class="col-4" type="date" class="form-control" id="fecha" aria-describedby="number">
+                      <input class="col-6" type="text" class="form-control" id="profofi" aria-describedby="number">
+                </div>
+
+                <div class="row">
+                    <div class="col">Fecha de Alta como Oficial/Especialista del Ejército</div> <div class="col">Promocion</div>
+                </div>
+                <div class="row">
+                      <input class="col-6" type="date" class="form-control" id="fecha" aria-describedby="number">
+                      <input class="col-2" type="text" class="form-control" id="promo" aria-describedby="number">
+                </div>
+
+                <div class="row">
+                    <div class="col">DPI</div> <div class="col">Lugar de Extención</div>
+                </div>
+                <div class="row">
+                      <input class="col-4" type="number" class="form-control" id="DPI" aria-describedby="number">
+                      <input class="col-6" type="text" class="form-control" id="extencion" aria-describedby="number">
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </div>
+            </form>
+        </div>
+    </div>
+
+                                   <!-- segundo carouse -->
+    <div class="carousel-item">
+        <div class="container">
+         <form>
+            <div class="titulo"><h2>INFORMACION FAMILIAR</h2></div>
+            <div class="row">
+            <div class="col">Nombre del Padre</div> <div class="col"> Dirección</div>
+            </div>
+            <div class="row">
+                <input class="col-6" type="text" class="form-control" id="Nombre" aria-describedby="nombre">
+                <input class="col-4" type="text" class="form-control" id="dirección" aria-describedby="direccion">
+            </div>
+
+             <div class="row">
+                <div class="col">Nombre de la Madre</div> <div class="col">Dirección</div>
+             </div>
+                <div class="row">
+                    <input class="col-6" type="text" class="form-control" id="Nombre" aria-describedby="nombre">
+                    <input class="col-4" type="text" class="form-control" id="direccion" aria-describedby="direccion">
+                </div>
+
+                <div class="row">
+                    <div class="col">Estado Civil</div> <div class="col"> Nombre del Conyugue</div>
+                </div>
+                <div class="row">
+                      <input class="col-4" type="text" class="form-control" id="estadocivil" aria-describedby="estado">
+                      <input class="col-6" type="text" class="form-control" id="nombre" aria-describedby="nombre">
+                </div>
+
+                <div class="row">
+                    <div class="col">Tiene Hijos</div> <div class="col">Cuantos Hijos Tiene</div> 
+                </div>
+
+                <div class="row">
+                  <div class="col-2 form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      SI
+                    </label>
+                  </div>
+                  <div class="col-2 form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      NO
+                    </label>
+                   </div>
+                     <input class="col-6" type="text" class="form-control" id="nombre" aria-describedby="nombre">
+                </div>
+
+                <div class="row">
+                    <div class="col">Nombre</div>  <div class="col"> Fecha de Nacimiento</div>
+                </div>
+                <div class="row">
+                      <input class="col-6" type="text" class="form-control" id="nombre" aria-describedby="hijo">
+                      <input class="col-4" type="date" class="form-control" id="fecha" aria-describedby="hijo">
+                </div>
+
+                <div class="row">
+                    <div class="col">Nombre</div>  <div class="col"> Fecha de Nacimiento</div>
+                </div>
+                <div class="row">
+                      <input class="col-6" type="text" class="form-control" id="nombre" aria-describedby="hijo">
+                      <input class="col-4" type="date" class="form-control" id="fecha" aria-describedby="hijo">
+                </div>
+
+                <div class="row">
+                    <div class="col">Nombre</div>  <div class="col"> Fecha de Nacimiento</div>
+                </div>
+                <div class="row">
+                      <input class="col-6" type="text" class="form-control" id="nombre" aria-describedby="hijo">
+                      <input class="col-4" type="date" class="form-control" id="fecha" aria-describedby="hijo">
+                </div> 
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </div>      
+         </form>
+        </div>
+    </div>
+
+                                   <!-- trecer carousel  -->
+    <div class="carousel-item">
+        <div class="container">
+            <form>
+                <div class="titulo"><h2>OTRA INFORMACIÓN</h2></div>
+                <div class="row">
+                    <div class="col">Color de Ojos</div> <div class="col"> Color de Cabello</div> <div class="col"> Tipo de Cabello</div>
+                    </div>
+                    <div class="row">
+                        <input class="col-2" type="text" class="form-control" id="ojos" aria-describedby="ojos">
+                        <input class="col-4" type="text" class="form-control" id="cabello" aria-describedby="cabello">
+                        <input class="col-4" type="text" class="form-control" id="cabello" aria-describedby="cabello">
+                    </div>
+
+                    <div class="row">
+                        <div class="col">Peso (lbs)</div> <div class="col"> Estatura (Cm)</div>
+                    </div>
+                    <div class="row">
+                          <input class="col-5" type="number" class="form-control" id="peso" aria-describedby="numero">
+                          <input class="col-5" type="number" class="form-control" id="estatura" aria-describedby="numero">
+                    </div>
+
+                    <div class="row">
+                        <div class="col">Lunares, Cicatrices</div> <div class="col-8">Ubicados en:</div> 
+                    </div>
+    
+                    <div class="row">
+                      <div class="col-2 form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          SI
+                        </label>
+                      </div>
+                      <div class="col-2 form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          NO
+                        </label>
+                     </div>
+                      <input class="col-6" type="text" class="form-control" id="nombre" aria-describedby="nombre">
+                   </div>
+
+               <div class="titulo"><h2>EN CASO DE EMERGENCIA LLAMAR A:</h2></div>
+               <div class="row">
+               <div class="col">Nombre</div> <div class="col"> Parentesco</div>
+               </div>
+               <div class="row">
+                   <input class="col-6" type="text" class="form-control" id="Nombre" aria-describedby="nombre">
+                   <input class="col-4" type="text" class="form-control" id="parentesco" aria-describedby="direccion">
+               </div>
+   
+                <div class="row">
+                   <div class="col">Dirección</div> <div class="col">Telefono de Casa</div>
+                </div>
+                   <div class="row">
+                       <input class="col-6" type="text" class="form-control" id="direccion" aria-describedby="direccion">
+                       <input class="col-4" type="number" class="form-control" id="telefono" aria-describedby="telefono">
+                   </div>
+   
+                   <div class="row">
+                       <div class="col">Telefono Celular</div> 
+                   </div>
+                   <div class="row">
+                         <input class="col-4" type="number" class="form-control" id="estadocivil" aria-describedby="numero">
+                   </div>  
+                   
+                   <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </div>
+            </form>
+           </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</body>
+</html>
